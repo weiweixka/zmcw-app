@@ -33,7 +33,7 @@ pub fn run() {
             // 返回Ok表示设置成功
             Ok(())
         })
-        // 运行Tauri应用程序，如果出错则panic
+        // 运行Tauri应用程序，如果出错则panic56S
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
